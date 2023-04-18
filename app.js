@@ -2,8 +2,7 @@ let buttons = document.querySelectorAll("button");
 let screenDisplay = document.querySelector(".screen");
 
 let calculation =[];
-let accumulativeCalculation;
-let geval;
+let accumulativeCalculion;
 
 function calculate(button) {
     const value = button.textContent;
